@@ -1,0 +1,113 @@
+
+.mypage_container {
+	background-color: white;
+	width: 100%;
+	height: 750px;
+}
+
+#mypage_profile {
+	width: 30%;
+	height: 750px;
+	text-align: center;
+	background-color: #EBEBEB;
+	float: left;
+}
+
+#mypage_profile ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#mypage_profile a {
+	color: black;
+}
+
+#mypage_profile ul>li {
+	margin: 30px;
+}
+
+#mypage_profile li:nth-child(2){
+	margin-bottom: 50px;
+}
+
+#mypage_profile_img {
+	width: 250px;
+	height: 250px;
+	/*height: 60%;*/
+	border-radius: 50%;
+}
+
+.mypage_container{
+	display: flex;
+}
+
+.member_List{
+	width: 100%;
+    margin: 30px 0px 0px 30px;
+}
+
+.member_header{
+	font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.list_top{
+	border-top: 1px solid #ddd;
+	background-color: #ddd;
+}
+
+.memberList_wrap{
+	overflow: auto;
+	margin-top: 3px;
+	font-size: 15px;
+}
+
+.memberList_wrap li{
+	float: left;
+	width: 10%;
+	text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.memberList_wrap li:nth-child(10n+1){
+	width: 3%;
+}
+
+.memberList_wrap li:nth-child(10n+2){
+	width: 11%;
+}
+
+.memberList_wrap li:nth-child(10n+5){
+	width: 15%;
+}
+
+.memberList_wrap li:nth-child(10n+6){
+	width: 13%;
+}
+
+.memberList_wrap li:nth-child(10n+7){
+	width: 16%;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.memberList_wrap li:nth-child(10n+8),
+.memberList_wrap li:nth-child(10n+9){
+	width: 5%;
+}
+
+
+.delBtn_wrap{
+	margin-top: 10px;
+	text-align: right;
+    margin-right: 30px;
+}
+
+#delBtn{
+	padding: 3px 10px;
+    font-size: 15px;
+}

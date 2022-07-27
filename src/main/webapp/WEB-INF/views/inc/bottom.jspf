@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
+<link rel="stylesheet" href="${url}/css/inc/bottom.css" type="text/css" />
+
+	<footer>
+		<div class="footer">
+			<div class="footer-div1">
+				<div>
+					<ul class="footer-div1-ul">
+						<li><a class="footer-div1-a" href="#"> Trip Together </a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-div2">
+				<ul class="footer-div2-ul">
+					<li>멀티캠퍼스</li>
+					<li>풀스택 웹개발 과정</li>
+					<li><a href="${url}/main" style="color: #fff;">HOME</a></li>
+					<li><a href="${url}/community/communityList" style="color: #fff;">COMMUNITY</a></li>
+					<li><a href="${url}/plan/planSearch" style="color: #fff;">PLAN</a></li>
+					<li><a href="${url}/users/joinForm" style="color: #fff;">JOIN-US</a></li>
+					<li>6CDI</li>
+				</ul>
+			</div>
+			<div class="footer-div3">
+				<div class="footer-div3-section1">
+					<p>
+						김진영 <a href="https://github.com/paestro95" style="color: #fff;">https://github.com/paestro95</a><br />
+						<br /> 권지연 <a href="https://github.com/jiyy97" style="color: #fff;">https://github.com/jiyy97</a><br />
+						<br />
+
+					</p>
+				</div>
+				<div class="footer-div3-section2">
+					<p>
+						신수진 <a href="https://github.com/JinJinee" style="color: #fff;">https://github.com/JinJinee</a><br />
+						<br /> 오어진 <a href="https://github.com/OH919" style="color: #fff;">https://github.com/OH919</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

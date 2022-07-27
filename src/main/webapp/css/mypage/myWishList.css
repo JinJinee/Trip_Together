@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+#myWishList_imgList {
+	width: 60%;
+	margin: 5%;
+	float: left;
+}
+
+#myWishList_imgList ul, #myWishList_imgList li {
+	margin: 0 5% 0 0;
+	padding: 0px;
+	list-style-type: none;
+	float: left;
+}
+#myWishList_imgList>ul>li {
+	width: 230px;
+	margin:0;
+}
+
+
+/* 리스트 글쓴이 */
+.card_writer_wrap{
+	overflow: auto;
+    padding-bottom: 10px;
+}
+
+.user_img{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+
+.id{
+	line-height: 35px;
+}
+
+.card_writer_wrap img{
+	width: 35px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.card_wrap{
+	width: 200px;
+    overflow: hidden;
+    float: left;
+    margin-top: 10px;
+    padding: 0px 12px;
+    margin-bottom: 30px;
+}
+
+.card_main_img_wrap{
+	width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.card_main_img_wrap img{
+	width: 200px;
+	height: 200px;
+}
